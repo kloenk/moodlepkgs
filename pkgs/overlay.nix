@@ -4,6 +4,7 @@ in {
   moodlePackages = {
     bigbluebuttonbn = callPackage ./mod/bigbluebuttonbn.nix { };
     scheduler = callPackage ./mod/scheduler.nix { };
+    lightboxgallery = callPackage ./mod/lightboxgallery.nix { };
 
     tiles = callPackage ./course/tiles.nix { };
 
