@@ -4,8 +4,8 @@ moodle-utils.buildMoodlePlugin {
   name = "sharing_cart";
   src = fetchzip {
     name = "scharing_cart";
-    url = "https://moodle.org/plugins/download.php/28784/block_sharing_cart_moodle41_2023032300.zip";
-    sha256 = "sha256-tzOUQbQu1jpl/sSlLXSRIoti9/nLyf0lwUEy88WHuM4";
+    url = "https://moodle.org/plugins/download.php/32715/block_sharing_cart_moodle44_2024072900.zip";
+    hash = "sha256-C9TgVQVwf3kjiGEbug6VUgMD53dUcL4Kfpq3Z6Wz+OY=";
     extraPostFetch = ''
       echo fix permissions: $out
       chmod a-w -R $out
