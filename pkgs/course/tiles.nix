@@ -11,5 +11,5 @@ moodle-utils.buildMoodlePlugin {
       chmod a-w -R $out
     '';
   };
-  pluginType = "course";
+  pluginType = "format";
 }
