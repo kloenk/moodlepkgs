@@ -9,5 +9,8 @@ in {
     tiles = callPackage ./course/tiles.nix { };
 
     sharing_cart = callPackage ./block/sharing_cart.nix { };
+    block_xp = callPackage ./block/block_xp.nix { };
+
+    shortcodes = callPackage ./filter/shortcode.nix { };
   };
 }
