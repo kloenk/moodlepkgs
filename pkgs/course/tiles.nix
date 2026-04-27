@@ -4,8 +4,8 @@ moodle-utils.buildMoodlePlugin {
   name = "tiles";
   src = fetchzip {
     name = "tiles";
-    url = "https://moodle.org/plugins/download.php/37943/format_tiles_moodle50_2025070364.zip";
-    hash = "sha256-VXe3XmQTGN3UJCK6V73rBWfSBk1egy4squKaR6OWpmk=";
+    url = "https://moodle.org/plugins/download.php/39593/format_tiles_moodle51_2026012570.zip";
+    hash = "sha256-Ct8QUSWTPmVz7xtRgehJ1LOaN7mkroPbX6B1SV3KfaI=";
     postFetch = ''
       echo fix permissions: $out
       chmod a-w -R $out

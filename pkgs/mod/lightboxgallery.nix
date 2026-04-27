@@ -4,8 +4,8 @@ moodle-utils.buildMoodlePlugin {
     name = "lightboxgallery";
     src = fetchzip {
       name = "lightboxgallery";
-      url = "https://moodle.org/plugins/download.php/36342/mod_lightboxgallery_moodle51_2025052600.zip";
-      hash = "sha256-+2ayCrG1sZ/59ssa05ZDlQ2fklCIxRVJot0NgRA4W7s=";
+      url = "https://moodle.org/plugins/download.php/40685/mod_lightboxgallery_moodle51_2026032500.zip";
+      hash = "sha256-NFq4C8F7tULeANagpCNRkmcgwe6+wh+XsCBd3mqVESs=";
       postFetch = ''
         echo fix permissions: $out
         chmod a-w -R $out
