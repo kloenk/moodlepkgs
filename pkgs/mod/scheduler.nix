@@ -4,7 +4,8 @@ moodle-utils.buildMoodlePlugin {
   name = "scheduler";
   src = fetchzip {
     name = "scheduler";
-    url = "https://moodle.org/plugins/download.php/29293/mod_scheduler_moodle42_2023052300.zip";
+    url = "https://marketplace.moodle.com/api/plugins/471/versions/14690/download";
+    extension = "zip";
     sha256 = "sha256-6ztUR5LxhtJISwU4/Z0Vcbx2rirBmIPAmYVmkU9aqTo=";
     postFetch = ''
       echo fix permissions: $out

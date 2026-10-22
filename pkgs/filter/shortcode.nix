@@ -4,7 +4,8 @@ moodle-utils.buildMoodlePlugin {
   name = "shortcodes";
   src = fetchzip {
     name = "shortcodes";
-    url = "https://moodle.org/plugins/download.php/38025/filter_shortcodes_moodle51_2025100100.zip";
+    url = "https://marketplace.moodle.com/api/plugins/2870/versions/21645/download";
+    extension = "zip";
     hash = "sha256-xb83EFbaBrLgzDb1c+L2szEwXrbmyu9romjvdTfyJOs=";
     postFetch = ''
       chmod a-w -R $out
